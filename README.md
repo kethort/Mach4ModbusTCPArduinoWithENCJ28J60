@@ -11,11 +11,11 @@ Using Arduino UNO and a NANO ENC28J60 ethernet shield. Pins 13, 12, 11, and 10 a
 
 ## Software
 ### Arduino
-TCP_KEEP_ALIVE is uncommented in the ModbusIP_ENC28J60.h header file in this fork of the Arduino Modbus library: 
+TCP_KEEP_ALIVE should be uncommented in the ModbusIP_ENC28J60.h header file in this fork of the Arduino Modbus library: 
 
-https://github.com/kenneth-orton/modbus-arduino 
+https://github.com/andresarmento/modbus-arduino
 
-Download the forked repo as zip and import as library in arduino.
+Download the repo as zip and import as a library in arduino.
 
 The Mach4Modbus.ino file in <b>this</b> repository should be edited for the inputs you want to use and the IP address you want for your device. Pins 13, 12, 11, and 10 are reserved for the ethernet shield and cannot be used as inputs.
 
