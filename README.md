@@ -1,4 +1,4 @@
-# mach4_arduino_inputs_over_modbus
+# Mach4 Modbus TCP using Arduino and ENCJ28J60
 Inputs from Arduino to Mach4 using Modbus over Ethernet
 
 ## Hardware
