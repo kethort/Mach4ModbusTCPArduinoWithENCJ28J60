@@ -3,7 +3,7 @@ Inputs from Arduino to Mach4 using Modbus over Ethernet
 
 ## Hardware
 
-Using Arduino UNO and a NANO ENC28J60 ethernet shield. Pins 13, 12, 11, and 10 are reserved for the ethernet shield and are connected to the Arduino UNO at the same pins. 
+Using Arduino UNO with ENC28J60 ethernet shield. Pins 13, 12, 11, and 10 are reserved for the ethernet shield and are connected to the Arduino UNO at the same pins. 
 
 <p align="center">
   <img src="/img/nano_ethernet.jpg" width="500"/>
@@ -11,7 +11,7 @@ Using Arduino UNO and a NANO ENC28J60 ethernet shield. Pins 13, 12, 11, and 10 a
 
 ## Software
 ### Arduino
-TCP_KEEP_ALIVE should be uncommented in the ModbusIP_ENC28J60.h header file in this fork of the Arduino Modbus library: 
+TCP_KEEP_ALIVE should be uncommented in the ModbusIP_ENC28J60.h header file in this Arduino Modbus library: 
 
 https://github.com/andresarmento/modbus-arduino
 
